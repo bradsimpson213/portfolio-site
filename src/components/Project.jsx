@@ -1,7 +1,3 @@
-import { FaFlask,  FaReact } from "react-icons/fa";
-import { FaPython } from "react-icons/fa6";
-import { SiJavascript } from "react-icons/si";
-
 import './Project.css'
 
 export default function Project ({data}) {
