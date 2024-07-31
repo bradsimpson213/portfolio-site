@@ -1,0 +1,10 @@
+.project-card {
+    border: 1px solid whitesmoke;
+    border-radius: 12px;
+    width: 25rem;
+    margin: 10px;
+}
+
+.site-image {
+    height: 150px;
+}

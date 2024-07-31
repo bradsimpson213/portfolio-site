@@ -1,0 +1,32 @@
+.biography-container {
+    background-image: url(https://res.cloudinary.com/app-academy4/image/upload/v1722390565/assets/waves_lv4ee3.jpg);
+    background-size: cover;
+    height:94vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    width: 80vw;
+    background-color: rgb(37, 48, 59);
+    border: 1px solid rgb(37, 48, 59);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+}
+
+.profile-image {
+    height:200px;
+    border-radius: 90px;
+}
+
+.main-text {
+    margin: 30px 0px 30px 0px;
+    text-shadow: rgb(0, 0, 0) -3px 3px 0px, 
+    rgb(0, 0, 0) 3px 3px 0px, 
+    rgb(0, 0, 0) 3px -3px 0px, 
+    rgb(0, 0, 0) -3px -3px 0px;
+}
