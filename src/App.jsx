@@ -12,15 +12,15 @@ const router = createBrowserRouter([
     element: <Navbar />,
     children: [
       {
-        path: '/portfolio-site/',
+        path: '/',
         element: <Biography />,
       },
       {
-        path: '/portfolio-site/portfolio',
+        path: 'portfolio',
         element: <Portfolio />
       },
       {
-        path: '/portfolio-site/instruction',
+        path: 'instruction',
         element: <Instruction />
       },
       {
