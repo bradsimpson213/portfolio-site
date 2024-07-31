@@ -1,4 +1,3 @@
-
 import Project from "./Project"
 import portfolioData from "../data/portfolio"
 
