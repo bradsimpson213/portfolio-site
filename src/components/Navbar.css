@@ -33,3 +33,8 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+.icon-link {
+    color: whitesmoke;
+    margin-left: 15px;
+}

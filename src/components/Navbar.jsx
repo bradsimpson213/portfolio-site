@@ -28,13 +28,22 @@ export default function Navbar () {
                     </NavLink>
                 </div>
                 <div className='personal-links'>
-                    <Link to='https://github.com/bradsimpson213'>
+                    <Link 
+                    to='https://github.com/bradsimpson213'
+                    className='icon-link'
+                    >
                         <FaGithub />
                     </Link>
-                    <Link to='https://www.linkedin.com/in/brad-simpson-a6b1b7b2'>
+                    <Link 
+                    to='https://www.linkedin.com/in/brad-simpson-a6b1b7b2'
+                    className='icon-link'
+                    >
                         <FaLinkedin />
                     </Link>
-                    <Link to="mailto:bradsimpson@icloud.com">
+                    <Link 
+                    to="mailto:bradsimpson@icloud.com"
+                    className='icon-link'
+                    >
                         <FaEnvelope />
                     </Link>
 
