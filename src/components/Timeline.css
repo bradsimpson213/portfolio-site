@@ -1,0 +1,140 @@
+.timeline-main {
+    position: relative;
+    height: 30vw;
+    overflow: scroll;
+    :before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        margin: 70px 0 0 -1px;
+        width: 1px;
+        height: calc(100% - 70px);
+    }
+}
+
+
+.timeline__item {
+    width: 100%;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.timeline__item:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.timeline__item div.inner {
+    width: 100%;
+    float: left;
+    margin: 85px 0 0 0;
+}
+
+.timeline__date {
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 3px 5px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -30px;
+    border-radius: 100%;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.timeline__date span {
+    display: block;
+    text-align: center;
+}
+
+.timeline__month {
+    font-size: 18px;
+    padding-top: 4px;
+}
+
+.timeline__year {
+    font-size: 12px;
+}
+
+.timeline__card {
+    border-radius: 12px;
+    border: 2px solid white;
+    transform: translate(-50%);
+}
+
+.timeline__card-title {
+    padding: 15px;
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 12px 12px 0 0;
+    position: relative;
+}
+
+.timeline__card-title:after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 30%;
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+}
+
+.timeline__item div.inner p {
+    padding: 5px 10px 5px 15px;
+    margin: 0;
+    font-size: 14px;
+
+}
+
+.timeline__item:nth-child(2n+2) div.inner {
+    float: right;
+
+    .timeline__card {
+        transform: translate(50%);
+    }
+}
+
+.timeline__card-title {
+    background: orange;
+}
+
+.timeline__card-title:after {
+    background: red;
+}
+
+.timeline__card-title--small {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.timeline__item.is-visible div.inner {
+    .timeline__card {
+        transition: transform .8s ease-in;
+        transform: translate(0);
+    }
+}
+
+
+.timeline__item div.inner {
+    width: 40%;
+    margin: 5px 0 0 0;
+}
+
+.timeline__item div.inner h2:after {
+    top: 20px;
+    left: unset;
+    right: -5px;
+}
+
+.timeline__item:nth-child(2n+2) div.inner h2:after {
+    left: -5px;
+}
