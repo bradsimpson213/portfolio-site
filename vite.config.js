@@ -4,12 +4,12 @@ import eslint from 'vite-plugin-eslint';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({ // <-- Change this line too!
-  base: "https://github.com/bradsimpson213/portfolio-site",
+  base: '/portfolio-site/',
   plugins: [
     react(),
     eslint({
       lintOnStart: true,
-      failOnError: mode === "production"
+      failOnError: mode === 'production'
     })
   ]
 }))
