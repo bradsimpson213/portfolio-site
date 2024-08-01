@@ -24,7 +24,9 @@ const Timeline = () => (
                 ({job.duration || 'present'})
               </small>
             </h2>
-            { job.description.map( ele => (<p>{ele}</p>))}
+            { job.description.map( (index, ele) => (
+                <p key={ index }>{ele}</p>
+            ))}
           </div>
         </div>
       </article>
