@@ -1,5 +1,33 @@
 .portfolio-main-container {
+    background-image: url(https://res.cloudinary.com/app-academy4/image/upload/v1722634970/assets/computer-8070002_1920_crbd3b.jpg);
+    background-size: cover;
+    height: 94vh;
+    padding: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.portfolio-main-text {
+    margin: 60px 0px 60px 0px;
+    text-shadow: rgb(0, 0, 0) -3px 3px 0px, 
+    rgb(0, 0, 0) 3px 3px 0px, 
+    rgb(0, 0, 0) 3px -3px 0px, 
+    rgb(0, 0, 0) -3px -3px 0px;
+}
+
+.portfolio-subcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    background-color: rgb(37, 48, 59);
+    border: 1px solid rgb(37, 48, 59);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    padding-top: 30px;;
+    overflow: scroll;
+    justify-content: center;
+    align-items: center;
 }

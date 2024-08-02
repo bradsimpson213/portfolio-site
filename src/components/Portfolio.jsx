@@ -5,8 +5,11 @@ import './Portfolio.css'
 export default function Portfolio () {
     return(
         <div className="portfolio-main-container">
+            <h1 className ="portfolio-main-text"                
+            >
+                My Portfolio
+            </h1>
             <div className="portfolio-subcontainer">
-                <h2>Portfolio</h2>
                 { portfolioData.map( (project, index) => (
                     <Project data={ project } key={ index } />
                 ))}
