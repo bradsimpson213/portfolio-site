@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import Timeline from "./Timeline"
 import "./Biography.css"
 import { animateOnScroll } from "../utils/isVisible"
+import DevIcons from "./DevIcons"
 
 export default function Biography() {
 
@@ -21,9 +22,10 @@ export default function Biography() {
                             className="profile-image"
                             src="https://res.cloudinary.com/app-academy4/image/upload/v1722546401/assets/headshop_txehlf.png" 
                         />
-                        <p>Skills</p>
+                        <p>Programming Skills</p>
                         <div>
-
+                            <DevIcons iconList={["python", "django", "flask", "sqlalchemy"]} />
+                            <DevIcons iconList={["javaScript", "react"]} />
                         </div>
                     </div>
                     <div className="about-content">
