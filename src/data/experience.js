@@ -18,7 +18,7 @@ const experience = [
           },
           duration: '1 year 4 months',
           occupation: 'Cohort Instructional Assistant',
-          description: ['• ', '• ' ],
+          description: ['• Prepare and deliver daily summary lectures reviewing the content taught each day ', '• Guided students through the entire journey through the App Academy Online SWE Full Time Bootcamp' ],
         },
         {
           company: 'App Academy',

@@ -6,14 +6,18 @@ const portfolio = [
         title: "Dad Jokes",
         description: "Who doesn't like a good Dad Joke? Well this site is loaded with them!!!",
         tech: "Python / Flask Server & React Client",
-        url: "https://dad-jokes-apw7.onrender.com/"
+        techIcons: ["python", "flask", "sqlalchemy", "javaScript", "react"],
+        url: "https://dad-jokes-apw7.onrender.com/",
+        features: []
       },
       {
         image: "https://res.cloudinary.com/app-academy4/image/upload/v1722375151/assets/star-trader-preview_baa8h7.png",
         title: "StarTrader",
         description: "The best starship trading app in the whole galaxy!",
         tech: "Python / Flask Server and React Client",
-        url: "https://startrader-app.herokuapp.com/"
+        techIcons: ["python", "flask", "sqlalchemy", "javaScript", "react"],
+        url: "https://startrader-app.herokuapp.com/",
+        features: []
       },
 ]
 

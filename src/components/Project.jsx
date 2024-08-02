@@ -1,3 +1,4 @@
+import DevIcons from './DevIcons'
 import './Project.css'
 
 export default function Project ({data}) {
@@ -9,6 +10,8 @@ export default function Project ({data}) {
                 <img className='site-image' src={ data.image } />
             </div>
             <p>{ data.description }</p>
+            <h4>Tech Stack</h4>
+            <DevIcons iconList={ data.techIcons }/>
         </div>
     )
 }
