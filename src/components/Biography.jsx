@@ -25,7 +25,8 @@ export default function Biography() {
                         <p>Programming Skills</p>
                         <div>
                             <DevIcons iconList={["python", "django", "flask", "sqlalchemy"]} />
-                            <DevIcons iconList={["javaScript", "react"]} />
+                            <DevIcons iconList={["javaScript", "react", "express", "sequelize"]} />
+                            <DevIcons iconList={["docker", "aws", "postgresql"]} />
                         </div>
                     </div>
                     <div className="about-content">
