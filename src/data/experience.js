@@ -3,11 +3,41 @@ const experience = [
         {
           company: 'App Academy',
           begin: {
+            month: 'Aug',
+            year: '2024',
+          },
+          duration: '2 years 4 months',
+          occupation: 'Module Instructor - Python',
+          description: ['• ', '• ' ],
+        },
+        {
+          company: 'App Academy',
+          begin: {
+            month: 'Mar',
+            year: '2021',
+          },
+          duration: '1 year 4 months',
+          occupation: 'Cohort Instructional Assistant',
+          description: ['• ', '• ' ],
+        },
+        {
+          company: 'App Academy',
+          begin: {
+            month: 'Aug',
+            year: '2020',
+          },
+          duration: '8 months',
+          occupation: 'Online Instructional Assistant',
+          description: ['• Debugging student code on projects and practices', '• Created multiple new practice assessments' ],
+        },
+        {
+          company: 'App Academy',
+          begin: {
             month: 'Feb',
             year: '2020',
           },
           duration: '6 months',
-          occupation: 'Student, Software Engineer',
+          occupation: 'Software Engineer Student',
           description: ['• Sharpening my skills as a full stack software engineer', '• App Academy is an immersive 1,000+ hour full-stack web development course with under a 3% acceptance rate' ],
         },
         {

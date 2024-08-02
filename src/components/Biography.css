@@ -10,19 +10,38 @@
 }
 
 .info-container {
+    display: flex;
+    flex-direction: column;
     width: 80vw;
     background-color: rgb(37, 48, 59);
     border: 1px solid rgb(37, 48, 59);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     padding: 10px;
+    overflow: scroll;
+}
+
+.info-subcontainer {
+    display: flex;
+    flex-direction: row;
 }
 
 .profile-image {
     height:200px;
-    border-radius: 90px;
+    border: 2px solid whitesmoke;
+    border-radius: 180px;
+    margin: 10px 0 0 0;
 }
 
+.about-content {
+    width: 50%;
+    padding: 7px;
+}
+
+.image-skills-content { 
+    width: 40%;
+    padding: 7px;
+}
 .main-text {
     margin: 30px 0px 30px 0px;
     text-shadow: rgb(0, 0, 0) -3px 3px 0px, 
