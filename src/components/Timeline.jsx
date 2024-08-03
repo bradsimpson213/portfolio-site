@@ -8,31 +8,30 @@ const Timeline = () => (
 
   <div className="timeline-main">
     {experience.length && experience.map(job => (
-      <article 
-        key={job.begin.month + job.begin.year} 
-        className='timeline__item animate-on-scroll'
+      <article
+        key={ job.begin.month + job.begin.year }
+        className='timeline-item animate-on-scroll'
       >
         <div className="inner">
-          <span className="timeline__date">
-            <span className="timeline__month">{job.begin.month}</span>
-            <span className="timeline__year">{job.begin.year}</span>
+          <span className="timeline-date">
+            <span className="timeline-month">{ job.begin.month }</span>
+            <span className="timeline-year">{ job.begin.year }</span>
           </span>
-          <div className="timeline__card">
-            <h2 className='timeline__card-title'>
-                <p>
-                    {job.occupation}
-                </p> 
-                <p>
-                    {job.company}
-                </p>
-                <br />
-              <small className='timeline__card-title--small'>
-                ({job.duration || 'present'})
-              </small>
+          <div className="timeline-card">
+            <h2 className='timeline-card-title'>
+              { job.occupation }
             </h2>
-            { job.description.map( (element, index) => (
-                <p key={ index }>{ element }</p>
+            { job.description.map((element, index) => (
+              <p key={index}>{element}</p>
             ))}
+            <div className="timeline-card-company">
+              <span className="timeline-card-subcompany">
+                { job.company }
+              </span>
+              <span className="timeline-card-duration">
+                { job.duration || 'present' }
+              </span>
+            </div>
           </div>
         </div>
       </article>
@@ -42,4 +41,3 @@ const Timeline = () => (
 
 export default Timeline;
 
-  

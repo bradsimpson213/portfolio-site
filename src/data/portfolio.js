@@ -8,16 +8,16 @@ const portfolio = [
         tech: "Python / Flask Server & React Client",
         techIcons: ["python", "flask", "sqlalchemy", "javaScript", "react"],
         url: "https://dad-jokes-apw7.onrender.com/",
-        features: []
+        features: ["• Simple app used for instruction in Flask, Sqlalchemy, and React"]
       },
       {
-        image: "https://res.cloudinary.com/app-academy4/image/upload/v1722375151/assets/star-trader-preview_baa8h7.png",
+        image: "https://res.cloudinary.com/app-academy4/image/upload/v1722638466/assets/Screenshot_2024-08-02_at_6.40.29_PM_cymucc.png",
         title: "StarTrader",
-        description: "The best starship trading app in the whole galaxy!",
+        description: "The best starship trading app in the whole galaxy! Loosely inpired by AutoTrader, but a whole lot more fun and way less real...",
         tech: "Python / Flask Server and React Client",
         techIcons: ["python", "flask", "sqlalchemy", "javaScript", "react"],
-        url: "https://startrader-app.herokuapp.com/",
-        features: []
+        url: "https://startrader-reborn.onrender.com/",
+        features: ["• Implemented ARWES library & custom React components to create a sci-fi user interface", ]
       },
 ]
 

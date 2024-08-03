@@ -8,11 +8,18 @@ export default function Project ({data}) {
         <div className="project-card">
             <div>
                 <h2>{ data.title }</h2>
-                <img className='site-image' src={ data.image } />
-                <Link to={ data.url }>{ data.url }</Link>
+                <Link to={ data.url }>
+                    <img className='site-image' src={ data.image } />
+                    <p>{ data.url }</p>
+                </Link>
             </div>
             <div>
                 <p>{ data.description }</p>
+             
+                    { data.features.map( (feature, index) => (
+                        <p key={ index } >{ feature }</p>
+                    ))}
+            
                 <DevIcons propLabel="Tech Stack" iconList={ data.techIcons }/>
             </div>
         </div>

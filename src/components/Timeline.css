@@ -15,25 +15,25 @@
 }
 
 
-.timeline__item {
+.timeline-item {
     width: 100%;
     margin: 0 0 20px 0;
     position: relative;
 }
 
-.timeline__item:after {
+.timeline-item:after {
     content: '';
     display: block;
     clear: both;
 }
 
-.timeline__item div.inner {
+.timeline-item div.inner {
     width: 100%;
     float: left;
     margin: 85px 0 0 0;
 }
 
-.timeline__date {
+.timeline-date {
     display: block;
     width: 60px;
     height: 60px;
@@ -49,37 +49,37 @@
     text-transform: uppercase;
 }
 
-.timeline__date span {
+.timeline-date span {
     display: block;
     text-align: center;
 }
 
-.timeline__month {
+.timeline-month {
     font-size: 18px;
     padding-top: 4px;
 }
 
-.timeline__year {
-    font-size: 12px;
+.timeline-year {
+    font-size: 13px;
 }
 
-.timeline__card {
+.timeline-card {
     border-radius: 12px;
     border: 2px solid whitesmoke;
     transform: translate(-50%);
 }
 
-.timeline__card-title {
-    padding: 15px;
+.timeline-card-title {
+    padding: 5px;
     margin: 0;
-    color: #fff;
+    color: black;
     font-size: 20px;
     text-transform: uppercase;
     border-radius: 12px 12px 0 0;
     position: relative;
 }
 
-.timeline__card-title:after {
+.timeline-card-title:after {
     content: '';
     position: absolute;
     top: -5px;
@@ -89,52 +89,63 @@
     transform: rotate(-45deg);
 }
 
-.timeline__item div.inner p {
+.timeline-item div.inner p {
     padding: 5px 10px 5px 15px;
     margin: 0;
     font-size: 14px;
 }
 
-.timeline__item:nth-child(2n+2) div.inner {
+.timeline-item:nth-child(2n+2) div.inner {
     float: right;
 
-    .timeline__card {
+    .timeline-card {
         transform: translate(50%);
     }
 }
 
-.timeline__card-title {
+.timeline-card-title {
     background: orange;
 }
 
-.timeline__card-title:after {
-    background: red;
+.timeline-card-title:after {
+    background: whitesmoke;
 }
 
-.timeline__card-title--small {
-    font-size: 16px;
+.timeline-card-company{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.timeline-card-subcompany{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.timeline-card-duration {
     font-style: italic;
+    font-size: 18px;
 }
 
-.timeline__item.is-visible div.inner {
-    .timeline__card {
+.timeline-item.is-visible div.inner {
+    .timeline-card {
         transition: transform .8s ease-in;
         transform: translate(0);
     }
 }
 
-
-.timeline__item div.inner {
+.timeline-item div.inner {
     width: 40%;
     margin: 5px 10px 0 10px;
 }
 
-.timeline__item div.inner h2:after {
+.timeline-item div.inner h2:after {
     top: 20px;
     left: unset;
     right: -5px;
 }
 
-.timeline__item:nth-child(2n+2) div.inner h2:after {
+.timeline-item:nth-child(2n+2) div.inner h2:after {
     left: -5px;
 }
