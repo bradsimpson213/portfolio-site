@@ -50,7 +50,7 @@ const experience = [
             year: '2010',
           },
           duration: '10 years',
-          occupation: 'Regional Director of Construction, Asset Manger',
+          occupation: 'Regional Director of Construction',
           description: ['• Directed a team of 4 construction technicians for various home improvement, rehabilitation, and maintenance projects' , '• Oversaw a portfolio of 12 properties, including  residential and commercial buildings' , '• Became a trained HERS Rater, using a software set to determine home environmental efficiency with 1000’s of data inputs', '• Utilized Yardi Property Management software to control the financial reporting, rent collection and bill paying requirements'],
         },
         {
@@ -60,7 +60,7 @@ const experience = [
             year: '2004',
           },
           duration: '5 years 8 months',
-          occupation: 'Accounting Supervisor, Client Relationship Manager',
+          occupation: 'Accounting Supervisor',
           description: ['• Managed all accounting and administrative resources for 6 to 7 private equity fund clients', '• Supervised a team of five staff and senior- level accounting professionals in all aspects of the financial reporting cycle', '• Tested Equitrak accounting software, developed procedures manuals for the software, and trained all levels of employees'],
         },
         {
