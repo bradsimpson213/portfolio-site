@@ -1,0 +1,30 @@
+.instruction-main-container {
+    background-image: url(https://res.cloudinary.com/app-academy4/image/upload/v1722741181/assets/ai-generated-8587765_1920_us0bqi.jpg);
+    background-size: cover;
+    height: 94vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instruction-main-text {
+    margin: 60px 0px 60px 0px;
+    text-shadow: rgb(0, 0, 0) -3px 3px 0px, 
+    rgb(0, 0, 0) 3px 3px 0px, 
+    rgb(0, 0, 0) 3px -3px 0px, 
+    rgb(0, 0, 0) -3px -3px 0px;
+}
+
+.instructional-container {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    background-color: rgb(37, 48, 59);
+    border: 1px solid rgb(37, 48, 59);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    overflow: scroll;
+}

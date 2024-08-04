@@ -21,9 +21,11 @@ const Timeline = () => (
             <h2 className='timeline-card-title'>
               { job.occupation }
             </h2>
-            { job.description.map((element, index) => (
-              <p key={index}>{element}</p>
-            ))}
+            <div className="description-list">
+              { job.description.map((element, index) => (
+                <p key={index}>{element}</p>
+              ))}
+            </div>
             <div className="timeline-card-company">
               <span className="timeline-card-subcompany">
                 { job.company }

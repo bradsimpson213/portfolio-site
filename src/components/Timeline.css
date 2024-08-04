@@ -111,6 +111,14 @@
     background: whitesmoke;
 }
 
+.description-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: normal;
+    text-align: start;
+}
+
 .timeline-card-company{
     display: flex;
     flex-direction: row;

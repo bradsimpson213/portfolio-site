@@ -8,6 +8,7 @@ const portfolio = [
         tech: "Python / Flask Server & React Client",
         techIcons: ["python", "flask", "sqlalchemy", "javaScript", "react"],
         url: "https://dad-jokes-apw7.onrender.com/",
+        gitRepo: "https://github.com/bradsimpson213/DJ-Deploy",
         features: ["• Simple app used for instruction in Flask, Sqlalchemy, and React"]
       },
       {
@@ -17,6 +18,7 @@ const portfolio = [
         tech: "Python / Flask Server and React Client",
         techIcons: ["python", "flask", "sqlalchemy", "javaScript", "react"],
         url: "https://startrader-reborn.onrender.com/",
+        gitRepo: "https://github.com/bradsimpson213/startrader-reborn",
         features: ["• Implemented ARWES library & custom React components to create a sci-fi user interface", ]
       },
 ]

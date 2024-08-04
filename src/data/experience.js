@@ -8,7 +8,10 @@ const experience = [
           },
           duration: '2 years 4 months',
           occupation: 'Module Instructor - Python',
-          description: ['• ', '• ' ],
+          description: ["• Responsible for delivery of all lecture material on the Software Engineering topics of Python, Flask, SqlAlchemy and Docker", 
+                          "• Manage a team of 3 Instructional Assistants who assist in the delivery of curriculum content and project guidance",
+                        "• Work directly with the curriculum department to maintain the current curriculum and assist with creating new content for the topics mentioned above"
+         ],
         },
         {
           company: 'App Academy',
@@ -68,7 +71,7 @@ const experience = [
           },
           duration: '2 years 9 months',
           occupation: 'Accounting Intern, Center for Mobility Services',
-          description: ['• Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers as well as facilitate payroll for expatriate employees.'],
+          description: ["• Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers", "• Facilitate payroll for expatriate employees with COLA and multiple currencies."],
         },
         {
           company: 'Ramapo College of NJ',
