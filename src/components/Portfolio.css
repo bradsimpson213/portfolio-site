@@ -28,6 +28,6 @@
     padding: 10px;
     padding-top: 30px;;
     overflow: scroll;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
