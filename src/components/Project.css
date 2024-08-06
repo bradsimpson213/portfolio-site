@@ -2,32 +2,72 @@
     border: 2px solid whitesmoke;
     border-radius: 12px;
     display: flex;
-    flex-direction: row;
-    width: 90%;
-    padding-left: 15px;
+    flex-direction: column;
+    width: 95%;
     margin: 10px;
     line-height: normal;
 }
 
-.project-visuals-section {
-
-}
-
-.site-image {
-    height: 150px;
-    border: 1px solid whitesmoke;
-    border-radius: 12px;
-}
-
-.project-details-section{
+.project-heading {
+    height: 75px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.project-title {
+    font-size: 30px;
+    width: 35%;
+    font-weight: bold;
 }
 
 .project-description {
     font-weight: bold;
     font-style: italic;
     font-size: 18px;
+}
+
+.project-subsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.project-visuals-section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+}
+
+.site-image {
+    height: 150px;
+    width: 200px;
+    border: 1px solid whitesmoke;
+    border-radius: 12px;
+}
+
+.project-links {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.links-divider {
+    margin: 10px;
+}
+
+.project-details-section{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    padding: 10px;
+    line-height: normal;
 }

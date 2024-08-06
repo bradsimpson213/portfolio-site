@@ -6,23 +6,38 @@ export default function Project ({data}) {
 
     return(
         <div className="project-card">
-            <div className='project-visuals-section'>
-                <h2>{ data.title }</h2>
-                <Link to={ data.url }>
-                    <img className='site-image' src={ data.image } />
-                    <p>{ data.url }</p>
-                </Link>
-            </div>
-            <div className='project-details-section'>
-                <p className='project-description'>
+            <div className='project-heading'>
+                <span className='project-title'>
+                    { data.title }
+                </span>
+                <span className='project-description'>
                     { data.description }
-                </p>
-                    { data.features.map( (feature, index) => (
-                        <p key={ index } >{ feature }</p>
-                    ))}
-            
-                <DevIcons propLabel="Tech Stack" iconList={ data.techIcons }/>
+                </span>
             </div>
+            <div className='project-subsection'>
+                <div className='project-visuals-section'>
+                    <Link to={ data.url }>
+                        <img className='site-image' src={ data.image } />
+                    </Link>
+                    <div className='project-links'>
+                        <Link to={ data.url }>
+                            Live Site 
+                        </Link>
+                        <span className='links-divider'>|</span>
+                        <Link to={ data.gitRepo }>
+                            Github Repo 
+                        </Link>
+                    </div>
+                </div>
+                <div className='project-details-section'>
+                        { data.features.map( (feature, index) => (
+                            <text key={ index } >{ feature }</text>
+                        ))}
+                
+                    <DevIcons propLabel="Tech Stack" iconList={ data.techIcons }/>
+                </div>
+            </div>
+    
         </div>
     )
 }
