@@ -24,7 +24,8 @@ export default function Biography() {
                         />
                         <div>
                             <h2>About Me</h2>
-                            <p>Based in Hawthorne, NJ, just 30 minutes from NYC, I enjoy engaging in DIY projects, gardening, hiking, kayaking, camping with my family, and reading in my hammock during my free time.</p>
+                            <p className="text-block">Based in Hawthorne, NJ, just 30 minutes from NYC, I enjoy engaging in DIY projects, gardening, hiking, kayaking, camping with my family, and reading in my hammock during my free time.</p>
+                            <p>With a diverse background in the financial and property management/construction industries, I bring a multifaceted perspective to software engineering.  My passion lies in creating and building, whether it&apos;s developing a website, crafting an app, or constructing a new home addition.  I am committed to excellence and take great pride in delivering high-quality work.</p>
                         </div>
                     </div>
                     <div className="programming-skill-content">
@@ -36,8 +37,7 @@ export default function Biography() {
                 </div>
                 <div>
                     <h2>Experience</h2>
-                    <p>With a diverse background in the financial and property management/construction industries, I bring a multifaceted perspective to software engineering.  My passion lies in creating and building—whether it&apos;s developing a website, crafting an app, or constructing a newhome addition.  I am committed to excellence and take great pride in delivering high-quality work.</p>
-                    <p>Please scroll through the timeline below for more details on my past expereince.</p>
+                    <p className="text-block">Dynamic and detail-oriented Software Engineer with a robust background in full-stack web development, instructional delivery, and project management. Proficient in Python, JavaScript, SQL, and modern frameworks including Flask, Django, React, and Redux. Demonstrated expertise in developing interactive web applications, database architecture, and API integrations. Adept at leading and mentoring teams, with a proven track record of enhancing student learning experiences and managing complex projects. Strong problem-solving skills, a passion for innovative solutions, and a commitment to continuous learning and professional growth.</p>
                     <Timeline />
                 </div>
             </div>

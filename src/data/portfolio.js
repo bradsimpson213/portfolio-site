@@ -1,5 +1,3 @@
-
-
 const portfolio = [
       {
         image: "https://res.cloudinary.com/app-academy4/image/upload/v1722638466/assets/Screenshot_2024-08-02_at_6.40.29_PM_cymucc.png",
@@ -9,8 +7,10 @@ const portfolio = [
         techIcons: ["python", "flask", "sqlalchemy", "javaScript", "react"],
         url: "https://startrader-reborn.onrender.com/",
         gitRepo: "https://github.com/bradsimpson213/startrader-reborn",
-        features: ["• Loosely inpired by AutoTrader, but a whole lot more fun and way less real...", 
+        features: [ "• Colaborative project with fellow developer Ben Perlmutter",
+            "• Loosely inpired by AutoTrader, but a whole lot more fun and way less real...", 
             "• Implemented ARWES library & custom React components to create a sci-fi user interface", 
+            "• Layered database tables approach to starships allows for ship customization", 
         ]
       },
       {
@@ -35,7 +35,8 @@ const portfolio = [
         techIcons: ["python", "flask", "sqlalchemy", "javaScript", "react"],
         url: "https://dad-jokes-apw7.onrender.com/",
         gitRepo: "https://github.com/bradsimpson213/DJ-Deploy",
-        features: ["• Simple app used for instruction in Flask, Sqlalchemy, and React"]
+        features: ["• Simple app used for instruction in Flask, Sqlalchemy, and React", 
+          "• Will add in udate and delete joke CRUD and User Auth in the future"]
       },
       {
         image: "https://res.cloudinary.com/app-academy4/image/upload/v1722910342/assets/flask-rps_jszdvq.png",
