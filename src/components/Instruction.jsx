@@ -8,7 +8,7 @@ export default function Instruction () {
                 Instruction    
             </h1>
             <div className='instructional-container'>
-                <img src="https://res.cloudinary.com/app-academy4/image/upload/v1723047413/assets/Building_under_Construction_7_generated_iqdjtt.jpg"/>
+                <img style={{height: "300px", width: "500px"}} src="https://res.cloudinary.com/app-academy4/image/upload/v1723047413/assets/Building_under_Construction_7_generated_iqdjtt.jpg"/>
                 <h3>Sorry this page is a work in progress...</h3>
      
                 <h3>Check out my YouTube Channel &quot;Brad Codes&quot; for videos of me teaching Python</h3>

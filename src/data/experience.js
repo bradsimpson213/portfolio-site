@@ -8,9 +8,11 @@ const experience = [
           },
           duration: '2 years 4 months',
           occupation: 'Module Instructor - Python',
-          description: ["• Responsible for delivery of all lecture material on the Software Engineering topics of Python, Flask, SqlAlchemy and Docker", 
-                          "• Manage a team of 3 Instructional Assistants who assist in the delivery of curriculum content and project guidance",
-                        "• Work directly with the curriculum department to maintain the current curriculum and assist with creating new content for the topics mentioned above"
+          description: ["• Delivered lectures on Python, Flask, SQLAlchemy, Docker, React, and Redux",
+            "• Advised over 100 student projects on database design, route architecture, deployment, and general debugging",
+            "• Managed a team of 3 Instructional Assistants to deliver curriculum content.",
+            "• Continuously updated curriculum content to reflect industry standards and best practices",
+            
          ],
         },
         {
@@ -51,7 +53,10 @@ const experience = [
           },
           duration: '10 years',
           occupation: 'Regional Director of Construction',
-          description: ['• Directed a team of 4 construction technicians for various home improvement, rehabilitation, and maintenance projects' , '• Oversaw a portfolio of 12 properties, including  residential and commercial buildings' , '• Became a trained HERS Rater, using a software set to determine home environmental efficiency with 1000’s of data inputs', '• Utilized Yardi Property Management software to control the financial reporting, rent collection and bill paying requirements'],
+          description: ["• Directed a team of 4 technicians on various home improvement and maintenance projects",
+            "• Oversaw a portfolio of 12 properties, both residential and commercial",
+            "• Trained as a HERS Rater, enhancing home environmental efficiency evaluation",
+          ],
         },
         {
           company: 'Palmeri Fund Administrators',
@@ -61,7 +66,11 @@ const experience = [
           },
           duration: '5 years 8 months',
           occupation: 'Accounting Supervisor',
-          description: ['• Managed all accounting and administrative resources for 6 to 7 private equity fund clients', '• Supervised a team of five staff and senior- level accounting professionals in all aspects of the financial reporting cycle', '• Tested Equitrak accounting software, developed procedures manuals for the software, and trained all levels of employees'],
+          description: [ "• Managed accounting resources for 6-7 private equity fund clients",
+            "• Supervised a team of five in all aspects of financial reporting",
+            "• Tested and developed procedure manuals for Equitrak accounting software",
+            
+          ],
         },
         {
           company: 'Ernst & Young LLP',

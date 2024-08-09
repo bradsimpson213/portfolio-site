@@ -20,6 +20,8 @@
 .instructional-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 80vw;
     background-color: rgb(37, 48, 59);
     border: 1px solid rgb(37, 48, 59);
