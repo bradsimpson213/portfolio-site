@@ -2,7 +2,7 @@ const portfolio = [
       {
         image: "https://res.cloudinary.com/app-academy4/image/upload/v1727106248/assets/Screenshot_2024-09-23_at_11.41.17_AM_qts22d.png",
         title: "Patchstagram",
-        description: "The best starship trading app in the whole galaxy!",
+        description: "Patch the cat's Instagram clone",
         tech: "Python / Flask Server and React Client",
         techIcons: ["python", "flask", "sqlalchemy", "aws", "javaScript", "react"],
         url: "https://patchstagram.onrender.com",
