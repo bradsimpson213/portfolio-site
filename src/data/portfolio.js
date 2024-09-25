@@ -40,28 +40,28 @@ const portfolio = [
             "• Utilized the Chakra UI component library for a streamline UI/UX experience" 
         ]
       },
-      {
-        image: "https://res.cloudinary.com/app-academy4/image/upload/v1635974577/dad-jokes/why-did-the-litigation-support-professional-cross-the-road-blog-joke-png-300_200_fbffgs.png",
-        title: "Dad Jokes",
-        description: "Who doesn't like a good Dad Joke? This site is loaded with them!",
-        tech: "Python / Flask Server & React Client",
-        techIcons: ["python", "flask", "sqlalchemy", "javaScript", "react"],
-        url: "https://dad-jokes-apw7.onrender.com/",
-        gitRepo: "https://github.com/bradsimpson213/DJ-Deploy",
-        features: ["• Simple app used for instruction in Flask, Sqlalchemy, and React", 
-          "• Will add in udate and delete joke CRUD and User Auth in the future"]
-      },
-      {
-        image: "https://res.cloudinary.com/app-academy4/image/upload/v1722910342/assets/flask-rps_jszdvq.png",
-        title: "Flask - RPS",
-        description: "Rock Paper Scissors with Flask",
-        tech: "Python / Flask Server",
-        techIcons: ["python", "flask"],
-        url: "https://flask-rock-paper-scissors.onrender.com",
-        gitRepo: "https://github.com/bradsimpson213/flask-rps",
-        features: ["• Simple Rock Paper Scissors implementation, great teaching app", 
-          "• Utilizes only Flask and Jinja templating, no JavaScript", "• Implemented Flask flashing for game notification" ]
-      },
+      // {
+      //   image: "https://res.cloudinary.com/app-academy4/image/upload/v1635974577/dad-jokes/why-did-the-litigation-support-professional-cross-the-road-blog-joke-png-300_200_fbffgs.png",
+      //   title: "Dad Jokes",
+      //   description: "Who doesn't like a good Dad Joke? This site is loaded with them!",
+      //   tech: "Python / Flask Server & React Client",
+      //   techIcons: ["python", "flask", "sqlalchemy", "javaScript", "react"],
+      //   url: "https://dad-jokes-apw7.onrender.com/",
+      //   gitRepo: "https://github.com/bradsimpson213/DJ-Deploy",
+      //   features: ["• Simple app used for instruction in Flask, Sqlalchemy, and React", 
+      //     "• Will add in udate and delete joke CRUD and User Auth in the future"]
+      // },
+      // {
+      //   image: "https://res.cloudinary.com/app-academy4/image/upload/v1722910342/assets/flask-rps_jszdvq.png",
+      //   title: "Flask - RPS",
+      //   description: "Rock Paper Scissors with Flask",
+      //   tech: "Python / Flask Server",
+      //   techIcons: ["python", "flask"],
+      //   url: "https://flask-rock-paper-scissors.onrender.com",
+      //   gitRepo: "https://github.com/bradsimpson213/flask-rps",
+      //   features: ["• Simple Rock Paper Scissors implementation, great teaching app", 
+      //     "• Utilizes only Flask and Jinja templating, no JavaScript", "• Implemented Flask flashing for game notification" ]
+      // },
 ]
 
 export default portfolio;

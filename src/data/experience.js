@@ -9,8 +9,8 @@ const experience = [
           duration: '2 years 4 months',
           occupation: 'Module Instructor - Python',
           description: ["• Delivered lectures on Python, Flask, SQLAlchemy, Docker, React, and Redux",
-            "• Advised over 100 student projects on database design, route architecture, deployment, and general debugging",
-            "• Managed a team of 3 Instructional Assistants to deliver curriculum content.",
+            "• Project Managed / Advised over 100 student projects, with teams of 3–4 developers, on database design, route architecture, front end design, deployment and overall code debugging. through daily stand up meetings and on demand 1:1 sessions.",
+            "• Supervised a team of 3 Instructors to create new tests and projects, assist with student management, and deliver curriculum content.",
             "• Continuously updated curriculum content to reflect industry standards and best practices",
             
          ],
