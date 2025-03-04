@@ -35,7 +35,7 @@ export default function Navbar () {
                         <FaGithub />
                     </Link>
                     <Link 
-                    to='https://www.linkedin.com/in/brad-simpson-a6b1b7b2'
+                    to='https://github.com/bradsimpson213'
                     className='icon-link'
                     >
                         <FaLinkedin />
