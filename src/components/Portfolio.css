@@ -20,7 +20,7 @@
 .portfolio-subcontainer {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 82vw;
     background-color: rgb(37, 48, 59);
     border: 1px solid rgb(37, 48, 59);
     border-top-left-radius: 20px;

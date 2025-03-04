@@ -31,7 +31,7 @@ export default function Biography() {
                     </div>
                     <div className="certs-skills-container">
                         <div className="certifications-content">
-                            <p>Certifications:</p>
+                            <p style={{ textDecoration: "underline"}}>Certifications:</p>
                             <div className="certifications-subcontainer">
                                 <div className="python-container">
                                     <img style={{'height': '100px'}} src="https://res.cloudinary.com/app-academy4/image/upload/v1737667284/assets/pcep-30-02-pcep-certified-entry-level-python-progra_agqqez.png" alt="PCEP badge" />       
@@ -44,7 +44,7 @@ export default function Biography() {
                             </div>
                         </div>
                         <div className="programming-skill-content">
-                            <p>Programming Skills:</p>
+                            <p style={{ textDecoration: "underline"}}>Programming Skills:</p>
                             <DevIcons propLabel="Languages" iconList={["python", "javaScript","rust"]} />
                             <DevIcons propLabel="Frameworks" iconList={["django", "flask", "sqlalchemy", "react", "redux", "express", "sequelize"]} />
                             <DevIcons propLabel="Other Tech" iconList={["docker", "aws", "postgresql", "sqlite", "playwright"]} />

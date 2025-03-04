@@ -1,7 +1,7 @@
 .biography-container {
     background-image: url(https://res.cloudinary.com/app-academy4/image/upload/v1722390565/assets/waves_lv4ee3.jpg);
     background-size: cover;
-    height:94vh;
+    height: 94vh;
     padding: 10px;
     display: flex;
     flex-direction: column;
