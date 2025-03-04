@@ -1,6 +1,6 @@
 .skill-icon {
     width: 50px;
-    margin: 0 5px 0 5px;
+    margin: 0 2px 0 2px;
 }
 
 .devicon-container {
@@ -8,4 +8,5 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    padding-left: 18px;
 }

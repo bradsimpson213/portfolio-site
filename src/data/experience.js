@@ -1,12 +1,25 @@
 
 const experience = [
         {
+          company: 'Fourth Dimension Tech, Inc.',
+          begin: {
+            month: 'Sept',
+            year: '2024',
+          },
+          duration: '7 months',
+          occupation: 'Python Trainer',
+          description: ["• Providing remote Intro to Python instruction",
+            "• Preparing students to pass the PCEP 30-02 Certified entry Level Python Programmer exam",
+            "• Focus in Data Anlysis using Numpy, Pandas, and Mathplotlib"
+        ],
+        },
+        {
           company: 'App Academy',
           begin: {
             month: 'Aug',
             year: '2024',
           },
-          duration: '2 years 4 months',
+          duration: '2 years 5 months',
           occupation: 'Module Instructor - Python',
           description: ["• Delivered lectures on Python, Flask, SQLAlchemy, Docker, React, and Redux",
             "• Project Managed / Advised over 100 full stack production applications, with teams of 3–4 developers, on database design, route architecture, front end design, deployment and overall code debugging. through daily stand up meetings and on demand 1:1 sessions.",
