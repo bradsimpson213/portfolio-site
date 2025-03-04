@@ -14,7 +14,7 @@ export default function Biography() {
     return (
         <div className="biography-container">
             <h1 className="main-text">
-                Hi! I&apos;m Brad Simpson!
+                Hi! I&apos;m Charles (Brad) Simpson!
             </h1>
             <div className="info-container">
                 <div className="info-subcontainer">
@@ -25,8 +25,8 @@ export default function Biography() {
                         />
                         <div>
                             <h2>About Me</h2>
-                            <p className="text-block">Based in Northern NJ, just 30 minutes from NYC, I enjoy engaging in DIY projects, gardening, hiking, kayaking, camping with my family, and reading in my hammock during my free time.</p>
-                            <p>With a diverse background in the financial and property management/construction industries, I bring a multifaceted perspective to software engineering.  My passion lies in creating and building, whether it&apos;s developing a website, crafting an app, or constructing a new home addition.  I am committed to excellence and take great pride in delivering high-quality work.</p>
+                            <p className="text-block">Based in Northern NJ, just outside NYC, I enjoy DIY, gardening, hiking, kayaking, camping with my family, and reading in my hammock.</p>
+                            <p>I have a diverse background in the financial and construction industries, bringing a unique perspective to software engineering.  My passion lies in creating, whether i&apos;m developing a website, crafting an app, or constructing a new home addition.  I am committed to excellence and take great pride in delivering high-quality work.</p>
                         </div>
                     </div>
                     <div className="certs-skills-container">

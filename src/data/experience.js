@@ -22,8 +22,8 @@ const experience = [
           duration: '2 years 5 months',
           occupation: 'Module Instructor - Python',
           description: ["• Delivered lectures on Python, Flask, SQLAlchemy, Docker, React, and Redux",
-            "• Project Managed / Advised over 100 full stack production applications, with teams of 3–4 developers, on database design, route architecture, front end design, deployment and overall code debugging. through daily stand up meetings and on demand 1:1 sessions.",
-            "• Supervised a team of 3 Instructors to create new tests and projects, assist with student management, and deliver curriculum content.",
+            "• Project Managed / Advised over 100 full stack production applications, with teams of 3–4 developers, on database design, route architecture, front end design, deployment and overall code debugging. through daily stand up meetings and on demand 1:1 sessions",
+            "• Supervised a team of 3 Instructors to create new tests and projects, assist with student management, and deliver curriculum content",
             "• Continuously updated curriculum content to reflect industry standards and best practices",
             
          ],
@@ -36,7 +36,7 @@ const experience = [
           },
           duration: '1 year 4 months',
           occupation: 'Cohort Instructional Assistant',
-          description: ['• Prepare and deliver daily summary lectures reviewing the content taught each day ', '• Guided students through the entire journey through the App Academy Online SWE Full Time Bootcamp' ],
+          description: ['• Prepare and deliver daily summary lectures reviewing the content taught each day', '• Guided students through the entire journey through the App Academy Online SWE Full Time Bootcamp' ],
         },
         {
           company: 'App Academy',
@@ -93,7 +93,7 @@ const experience = [
           },
           duration: '2 years 9 months',
           occupation: 'Accounting Intern, Center for Mobility Services',
-          description: ["• Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers", "• Facilitate payroll for expatriate employees with COLA and multiple currencies."],
+          description: ["• Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers", "• Facilitate payroll for expatriate employees with COLA and multiple currencies"],
         },
         {
           company: 'Ramapo College of NJ',
@@ -103,7 +103,7 @@ const experience = [
           },
           duration: '4 years',
           occupation: 'Bachelors of Science in Accounting',
-          description: ['• I learned how to count, really well', '• I also took several business courses in finance, marketing, economics, and management.'],
+          description: ['• I learned how to count, really well', '• I also took several business courses in finance, marketing, economics, and management'],
         },
 ]
 
