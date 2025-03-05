@@ -5,10 +5,8 @@ import "./Navbar.css"
 
 
 export default function Navbar () {
-
     return (
         <>
-   
             <div className='navbar-container'>
                 <div className='navlink-container'>
                     <NavLink 

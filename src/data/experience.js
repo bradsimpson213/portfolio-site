@@ -19,34 +19,14 @@ const experience = [
             month: 'Aug',
             year: '2024',
           },
-          duration: '2 years 5 months',
+          duration: '4 years 5 months',
           occupation: 'Module Instructor - Python',
           description: ["• Delivered lectures on Python, Flask, SQLAlchemy, Docker, React, and Redux",
             "• Project Managed / Advised over 100 full stack production applications, with teams of 3–4 developers, on database design, route architecture, front end design, deployment and overall code debugging. through daily stand up meetings and on demand 1:1 sessions",
             "• Supervised a team of 3 Instructors to create new tests and projects, assist with student management, and deliver curriculum content",
-            "• Continuously updated curriculum content to reflect industry standards and best practices",
-            
+            "• Continuously updated curriculum content to reflect industry standards and best practices",  
+            "• Also held roles of Cohort Instructional Assistant and Junior instructional Assistant"
          ],
-        },
-        {
-          company: 'App Academy',
-          begin: {
-            month: 'Mar',
-            year: '2021',
-          },
-          duration: '1 year 4 months',
-          occupation: 'Cohort Instructional Assistant',
-          description: ['• Prepare and deliver daily summary lectures reviewing the content taught each day', '• Guided students through the entire journey through the App Academy Online SWE Full Time Bootcamp' ],
-        },
-        {
-          company: 'App Academy',
-          begin: {
-            month: 'Aug',
-            year: '2020',
-          },
-          duration: '8 months',
-          occupation: 'Online Instructional Assistant',
-          description: ['• Debugging student code on projects and practices', '• Created multiple new practice assessments' ],
         },
         {
           company: 'App Academy',
@@ -55,7 +35,7 @@ const experience = [
             year: '2020',
           },
           duration: '6 months',
-          occupation: 'Software Engineer Student',
+          occupation: 'Full Stack Software Engineer Student',
           description: ['• Sharpening my skills as a full stack software engineer', '• App Academy is an immersive 1,000+ hour full-stack web development course with under a 3% acceptance rate' ],
         },
         {
@@ -82,7 +62,6 @@ const experience = [
           description: [ "• Managed accounting resources for 6-7 private equity fund clients",
             "• Supervised a team of five in all aspects of financial reporting",
             "• Tested and developed procedure manuals for Equitrak accounting software",
-            
           ],
         },
         {
