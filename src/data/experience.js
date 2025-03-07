@@ -10,7 +10,7 @@ const experience = [
           occupation: 'Python Trainer',
           description: ["• Providing remote Intro to Python instruction",
             "• Preparing students to pass the PCEP 30-02 Certified entry Level Python Programmer exam",
-            "• Focus in Data Anlysis using Numpy, Pandas, and Mathplotlib"
+            "• Focus in Data Analysis using Numpy, Pandas, and Matplotlib"
         ],
         },
         {
