@@ -21,11 +21,9 @@ const experience = [
           },
           duration: '4 years 5 months',
           occupation: 'Module Instructor - Python',
-          description: ["• Delivered lectures on Python, Flask, SQLAlchemy, Docker, React, and Redux",
-            "• Project Managed / Advised over 100 full stack production applications, with teams of 3–4 developers, on database design, route architecture, front end design, deployment and overall code debugging. through daily stand up meetings and on demand 1:1 sessions",
-            "• Supervised a team of 3 Instructors to create new tests and projects, assist with student management, and deliver curriculum content",
-            "• Continuously updated curriculum content to reflect industry standards and best practices",  
-            "• Also held roles of Cohort Instructional Assistant and Junior instructional Assistant"
+          description: ["• Delivered engaging lectures on Python, Flask, and React, leading to a 95% student pass rate over two years by incorporating hands-on coding exercises",
+                        "• Project advised teams of 3–4 developers on 100+ full-stack projects, debugging production code and deployments through agile daily stand-ups and 1:1 technical debugging sessions",
+                        "• Mentored a team of 3 Junior Instructional Assistants, enhancing their instructional skills and curriculum delivery through structured feedback and support within 6 months",
          ],
         },
         {
@@ -36,7 +34,9 @@ const experience = [
           },
           duration: '6 months',
           occupation: 'Full Stack Software Engineer Student',
-          description: ['• Sharpening my skills as a full stack software engineer', '• App Academy is an immersive 1,000+ hour full-stack web development course with under a 3% acceptance rate' ],
+          description: ['• Sharpening my skills as a full stack software engineer', 
+            '• App Academy is an immersive 1,000+ hour full-stack web development course with under a 3% acceptance rate' 
+          ],
         },
         {
           company: 'New Vistas Corporation',
@@ -46,9 +46,9 @@ const experience = [
           },
           duration: '10 years',
           occupation: 'Regional Director of Construction',
-          description: ["• Directed a team of 4 technicians on various home improvement and maintenance projects",
-            "• Oversaw a portfolio of 12 properties, both residential and commercial",
-            "• Trained as a HERS Rater, enhancing home environmental efficiency evaluation",
+          description: ["• Led a team of 4 technicians to complete 10+ home improvement projects within 6 months, enhancing property value through strategic planning and execution",
+            "• Managed a diverse portfolio of 12 properties, comprised of commercial, residential, and mixed use properties in the Tri State area",
+            "• Certified as a HERS Rater, improving home energy efficiency assessments and contributing to measurable reductions in energy consumption",
           ],
         },
         {
@@ -59,9 +59,8 @@ const experience = [
           },
           duration: '5 years 8 months',
           occupation: 'Accounting Supervisor',
-          description: [ "• Managed accounting resources for 6-7 private equity fund clients",
-            "• Supervised a team of five in all aspects of financial reporting",
-            "• Tested and developed procedure manuals for Equitrak accounting software",
+          description: [ "• Managed financial reporting, auditing, and partner transactions for 10 private equity fund clients",
+            "• Supervised a team of five Staff Accountants in all aspects of financial reporting",
           ],
         },
         {
@@ -72,7 +71,8 @@ const experience = [
           },
           duration: '2 years 9 months',
           occupation: 'Accounting Intern, Center for Mobility Services',
-          description: ["• Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers", "• Facilitate payroll for expatriate employees with COLA and multiple currencies"],
+          description: ["• Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers", 
+                        "• Facilitate payroll for expatriate employees with COLA and multiple currencies"],
         },
         {
           company: 'Ramapo College of NJ',

@@ -53,7 +53,7 @@ export default function Biography() {
                 </div>
                 <div>
                     <h2>Experience</h2>
-                    <p className="text-block">Dynamic and detail-oriented Software Engineer with a robust background in full-stack web development, instructional delivery, and project management. Proficient in Python, JavaScript, SQL, and modern frameworks including Flask, Django, React, and Redux. Demonstrated expertise in developing interactive web applications, database architecture, and API integrations. Adept at leading and mentoring teams, with a proven track record of enhancing student learning experiences and managing complex projects. Strong problem-solving skills, a passion for innovative solutions, and a commitment to continuous learning and professional growth.</p>
+                    <p className="text-block">Dynamic Software Engineer with 4+ years experience teaching & implementing Python, React, and database architecture. Project advised 100+ teams developing full-stack applications through daily agile stand-ups and 1:1 technical debugging sessions. Committed to delivering high-quality solutions while fostering collaboration and continuous learning.</p>
                     <Timeline />
                 </div>
             </div>
