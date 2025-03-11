@@ -9,7 +9,7 @@
 }
 
 .project-heading {
-    height: 75px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -18,7 +18,7 @@
 }
 
 .project-title {
-    font-size: 30px;
+    font-size: 1.5em;
     width: 35%;
     font-weight: bold;
 }
@@ -26,7 +26,7 @@
 .project-description {
     font-weight: bold;
     font-style: italic;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 .project-subsection{

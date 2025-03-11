@@ -44,7 +44,7 @@
     margin: 0 0 0 -30px;
     border: 2px solid whitesmoke;
     border-radius: 100%;
-    font-size: 12px;
+    font-size: 1em;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -55,7 +55,7 @@
 }
 
 .timeline-month {
-    font-size: 18px;
+    font-size: 1em;
     padding-top: 4px;
 }
 
@@ -73,7 +73,7 @@
     padding: 5px;
     margin: 0;
     color: black;
-    font-size: 20px;
+    font-size: 1em;
     text-transform: uppercase;
     border-radius: 12px 12px 0 0;
     position: relative;
@@ -92,7 +92,7 @@
 .timeline-item div.inner p {
     padding: 5px 10px 5px 15px;
     margin: 0;
-    font-size: 14px;
+    font-size: .8rem;
 }
 
 .timeline-item:nth-child(2n+2) div.inner {
@@ -129,12 +129,12 @@
 
 .timeline-card-subcompany{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .timeline-card-duration {
     font-style: italic;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 .timeline-item.is-visible div.inner {
