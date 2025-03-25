@@ -27,9 +27,10 @@
 }
 
 .power-bi-container,
-.python-container {
+.python-container,
+.azure-ai-container {
     font-size: 12px;
-    width: 200px;
+    width: 150px;
 }
 
 .profile-image {

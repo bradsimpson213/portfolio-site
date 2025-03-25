@@ -33,6 +33,10 @@ export default function Biography() {
                         <div className="certifications-content">
                             <p style={{ textDecoration: "underline"}}>Certifications:</p>
                             <div className="certifications-subcontainer">
+                                <div className="azure-ai-container">
+                                    <img style={{'height': '100px'}} src="https://res.cloudinary.com/app-academy4/image/upload/v1742918139/assets/microsoft-certified-fundamentals-badge_yeimpu.svg" alt="microsoft fundamentals badge"/>
+                                    <p>Azure AI Fundamentals</p>
+                                </div>
                                 <div className="python-container">
                                     <img style={{'height': '100px'}} src="https://res.cloudinary.com/app-academy4/image/upload/v1737667284/assets/pcep-30-02-pcep-certified-entry-level-python-progra_agqqez.png" alt="PCEP badge" />       
                                     <p>Certified Python Programmer</p>                 
