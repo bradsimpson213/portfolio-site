@@ -51,7 +51,7 @@ export default function Biography() {
                             <p style={{ textDecoration: "underline"}}>Programming Skills:</p>
                             <DevIcons propLabel="Languages" iconList={["python", "javaScript","rust"]} />
                             <DevIcons propLabel="Frameworks" iconList={["django", "flask", "sqlalchemy", "react", "redux", "express", "sequelize"]} />
-                            <DevIcons propLabel="Other Tech" iconList={["docker", "aws", "postgresql", "sqlite", "playwright"]} />
+                            <DevIcons propLabel="Other Tech" iconList={["docker", "aws", "postgresql", "sqlite", "playwright", "azure"]} />
                         </div>
                     </div>
                 </div>

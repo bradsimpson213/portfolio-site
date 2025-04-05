@@ -4,7 +4,7 @@ const portfolio = [
         title: "Patchstagram",
         description: "Patch the cat's Instagram clone",
         tech: "Python / Flask Server and React Client",
-        techIcons: ["python", "flask", "sqlalchemy", "aws", "javaScript", "react"],
+        techIcons: ["python", "flask", "sqlalchemy", "aws", "azure", "javaScript", "react"],
         url: "https://patchstagram.onrender.com",
         gitRepo: "https://github.com/bradsimpson213/patchstagram-production",
         features: [ "• Instagram clone with Posts and Likes features implemented",
