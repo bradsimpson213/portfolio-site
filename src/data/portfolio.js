@@ -7,7 +7,8 @@ const portfolio = [
         techIcons: ["python", "flask", "sqlalchemy", "aws", "azure", "javaScript", "react"],
         url: "https://patchstagram.onrender.com",
         gitRepo: "https://github.com/bradsimpson213/patchstagram-production",
-        features: [ "• Instagram clone with Posts and Likes features implemented",
+        features: [ "• Instagram clone with a cat theme",
+          "• Implemented AI-driven image tagging using Microsoft Azure AI Vision, automating tag generation for images.",
             "• Integrated AWS S3 bucket for image storage", 
             "• Front End light/dark themes with React context", 
         ]
