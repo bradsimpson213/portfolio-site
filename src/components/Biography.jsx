@@ -33,13 +33,20 @@ export default function Biography() {
                         <div className="certifications-content">
                             <p style={{ textDecoration: "underline"}}>Certifications:</p>
                             <div className="certifications-subcontainer">
-                                <div className="azure-ai-container">
-                                    <img style={{'height': '100px'}} src="https://res.cloudinary.com/app-academy4/image/upload/v1742918139/assets/microsoft-certified-fundamentals-badge_yeimpu.svg" alt="microsoft fundamentals badge"/>
-                                    <p>Azure AI Fundamentals</p>
+                                <div className="MCT-container">
+                                    <img style={{'height': '100px'}} src="https://res.cloudinary.com/app-academy4/image/upload/v1755783888/Simplified_MCT_Badge_ptdeog.png" alt="MCT badge" />       
+                                    <p>Microsoft Certified Trainer</p>                 
                                 </div>
                                 <div className="python-container">
                                     <img style={{'height': '100px'}} src="https://res.cloudinary.com/app-academy4/image/upload/v1737667284/assets/pcep-30-02-pcep-certified-entry-level-python-progra_agqqez.png" alt="PCEP badge" />       
                                     <p>Certified Python Programmer</p>                 
+                                </div>
+                          
+                            </div>
+                            <div className="certifications-subcontainer">
+                                <div className="azure-ai-container">
+                                    <img style={{'height': '100px'}} src="https://res.cloudinary.com/app-academy4/image/upload/v1742918139/assets/microsoft-certified-fundamentals-badge_yeimpu.svg" alt="microsoft fundamentals badge"/>
+                                    <p>Azure AI Fundamentals</p>
                                 </div>
                                 <div className="power-bi-container">
                                     <img style={{'height': '100px'}} src="https://res.cloudinary.com/app-academy4/image/upload/v1741107957/assets/microsoft-certified-associate-badge_dkevlb.svg" alt="microsoft associate badge"/>

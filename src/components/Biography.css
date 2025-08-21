@@ -33,6 +33,11 @@
     width: 150px;
 }
 
+.MCT-container {
+    font-size: 12px;
+    width: 140px;
+}
+
 .profile-image {
     height:200px;
     border: 2px solid whitesmoke;
