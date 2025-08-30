@@ -10,8 +10,15 @@
 }
 
 .info-container {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-areas: 
+        "profile certs"
+        "summary skills"
+        "experience experience";
+    justify-content: space-arounds;
+    align-content: space-around;
     width: 82vw;
     background-color: rgb(37, 48, 59);
     border: 1px solid rgb(37, 48, 59);
@@ -19,11 +26,6 @@
     border-top-right-radius: 20px;
     padding: 10px;
     overflow: scroll;
-}
-
-.info-subcontainer {
-    display: flex;
-    flex-direction: row;
 }
 
 .power-bi-container,
@@ -39,14 +41,20 @@
 }
 
 .profile-image {
-    height:200px;
+    grid-area: profile;
+    justify-self: center;
+    align-self: center;
+    height:275px;
     border: 2px solid whitesmoke;
     border-radius: 25px;
     margin: 10px 0 0 0;
 }
 
 .certs-skills-container {
-    width: 50%;
+    grid-area: certs;
+    justify-self: center;
+    align-self: center;
+    /* width: 50%; */
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -54,24 +62,33 @@
     align-items: center;
 }
 
-.certifications-subcontainer{ 
+.certifications-subcontainer { 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .programming-skill-content {
+    grid-area: skills;
+    justify-self: center;
+    align-self: center;
+    padding: 10px; 
+    /* width: 50%; */
+}
 
+.about-me-container {
+    grid-area: summary;
+    justify-self: center;
+    align-self: center;
     padding: 10px;
 }
 
 .certifications-content {
-
     padding: 10px;
 }
 
 .image-about-content { 
-    width: 50%;
+    /* width: 50%; */
     padding: 7px;
 }
 
@@ -86,4 +103,30 @@
 
 .text-block {
     padding: 10px;
+}
+
+.experience-container {
+    grid-area: experience;
+}
+
+
+@media screen and (width <= 900px) {
+    .info-container {
+    display: grid;
+    grid-template-areas: 
+        "profile"
+        "summary"
+        "certs"
+        "skills"
+        "experience";
+    justify-content: space-arounds;
+    align-content: space-around;
+    width: 82vw;
+    background-color: rgb(37, 48, 59);
+    border: 1px solid rgb(37, 48, 59);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    overflow: scroll;
+    }
 }
