@@ -44,11 +44,10 @@
     grid-area: profile;
     justify-self: center;
     align-self: center;
-    height:300px;
+    height:275px;
     border: 2px solid whitesmoke;
     border-radius: 25px;
     margin: 10px 0 0 0;
-    border: 3px solid red;
 }
 
 .certs-skills-container {
@@ -74,7 +73,6 @@
     justify-self: center;
     align-self: center;
     padding: 10px; 
-    border: 3px solid purple;
     /* width: 50%; */
 }
 
@@ -83,12 +81,9 @@
     justify-self: center;
     align-self: center;
     padding: 10px;
-    /* width: 50%; */
-    border: 3px solid pink;
 }
 
 .certifications-content {
-    border: 3px solid orange;
     padding: 10px;
 }
 
@@ -112,5 +107,26 @@
 
 .experience-container {
     grid-area: experience;
-    border: 3px solid cyan;
+}
+
+
+@media screen and (width <= 900px) {
+    .info-container {
+    display: grid;
+    grid-template-areas: 
+        "profile"
+        "summary"
+        "certs"
+        "skills"
+        "experience";
+    justify-content: space-arounds;
+    align-content: space-around;
+    width: 82vw;
+    background-color: rgb(37, 48, 59);
+    border: 1px solid rgb(37, 48, 59);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    overflow: scroll;
+    }
 }
