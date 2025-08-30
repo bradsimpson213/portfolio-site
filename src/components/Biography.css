@@ -25,7 +25,9 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding: 10px;
-    overflow: scroll;
+    /* overflow: scroll; */
+    overflow-y: scroll;
+    overflow-x: auto;
 }
 
 .power-bi-container,
@@ -127,6 +129,8 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding: 10px;
-    overflow: scroll;
+    /* overflow: scroll; */
+    overflow-y: scroll;
+    overflow-x: auto;
     }
 }
