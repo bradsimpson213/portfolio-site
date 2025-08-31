@@ -24,7 +24,7 @@ export default function Biography() {
                     <div className="about-me-container">
                         <h2>About Me</h2>
                         <p className="text-block">Based in Northern NJ I enjoy DIY, hiking, kayaking, camping with my family, and reading in my hammock.</p>
-                        <p>I have a diverse background in the financial and construction industries, bringing a unique perspective to software engineering.  My passion lies in creating, whether i&apos;m developing a website, crafting an app, or constructing a new home addition.  I am committed to excellence and take great pride in delivering high-quality work.</p>
+                        <p className="text-block">I have a diverse background in the financial and construction industries, bringing a unique perspective to software engineering.  My passion lies in creating, whether i&apos;m developing a website, crafting an app, or constructing a new home addition.  I am committed to excellence and take great pride in delivering high-quality work.</p>
                     </div>
                     <div className="certs-skills-container">
                         <div className="certifications-content">
