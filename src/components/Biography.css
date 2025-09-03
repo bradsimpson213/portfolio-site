@@ -126,7 +126,7 @@
             "skills"
             "experience";
         justify-content: center;
-        align-content: center;
+        align-content: space-evenly;
         width: 100vw;
         background-color: rgb(37, 48, 59);
         border: 1px solid rgb(37, 48, 59);
