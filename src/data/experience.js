@@ -6,7 +6,7 @@ const experience = [
             month: 'Sept',
             year: '2024',
           },
-          duration: '7 months',
+          duration: 'Present',
           occupation: 'Python Trainer',
           description: ["• Providing remote Intro to Python instruction",
             "• Preparing students to pass the PCEP 30-02 Certified entry Level Python Programmer exam",
