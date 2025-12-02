@@ -42,12 +42,12 @@ export default function Biography() {
                             </div>
                             <div className="certifications-subcontainer">
                                 <div className="azure-ai-container">
-                                    <img style={{'height': '100px'}} src="https://res.cloudinary.com/app-academy4/image/upload/v1742918139/assets/microsoft-certified-fundamentals-badge_yeimpu.svg" alt="microsoft fundamentals badge"/>
-                                    <p>Azure AI Fundamentals</p>
+                                    <img style={{'height': '100px'}} src="https://res.cloudinary.com/app-academy4/image/upload/v1741107957/assets/microsoft-certified-associate-badge_dkevlb.svg" alt="microsoft associate badge"/>
+                                    <p>Azure Data Scientist Associate</p>
                                 </div>
                                 <div className="power-bi-container">
                                     <img style={{'height': '100px'}} src="https://res.cloudinary.com/app-academy4/image/upload/v1741107957/assets/microsoft-certified-associate-badge_dkevlb.svg" alt="microsoft associate badge"/>
-                                    <p>Power BI Data Analyst</p>
+                                    <p>Power BI Data Analyst Associate</p>
                                 </div>
                             </div>
                         </div>
